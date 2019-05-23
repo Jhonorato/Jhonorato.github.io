@@ -223,14 +223,27 @@
     </div>
   </footer>
   <!-- KONAMI -->
-<script type="text/javascript">
+<script type="text/javascript"> console.log("linus")
 if ( window.addEventListener ) {
-  var state = 0, konami = [76,73,78,85,83];
+  var state = 0, linus = [76,73,78,85,83,67,72,65,78];
   window.addEventListener("keydown", function(e) {
-    if ( e.keyCode == konami[state] ) state++;
+    if ( e.keyCode == linus[state] ) state++;
     else state = 0;
-    if ( state == 5)
+    if ( state == linus.length){
+      console.log("hi")
        window.location = "img/linus.png";  //you can write your own code here
+    }
+  }, true);
+}
+</script>
+<script type="text/javascript"> console.log("hello")
+if ( window.addEventListener ) {
+  var california = 0, ellis = [69,76,76,73,83,83];
+  window.addEventListener("keydown", function(e) {
+    if ( e.keyCode == ellis[california] ) california++;
+    else california = 0;
+    if ( california == ellis.length)
+       window.location = "http://streetcodesa.ga/";  //you can write your own code here
     }, true);
 }
 </script>
