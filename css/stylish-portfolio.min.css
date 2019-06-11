@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Stylish Portfolio v5.0.4 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
+
 
 body,
 html {
@@ -19,8 +15,8 @@ body {
 }
 
 .content-section {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem
+    padding-top: 7rem;
+    padding-bottom: 3rem
 }
 
 .content-section-heading h2 {
@@ -302,8 +298,8 @@ h6 {
 }
 
 footer.footer {
-    padding-top: 5rem;
-    padding-bottom: 5rem
+    padding-top: 2rem;
+    padding-bottom: 0.1rem
 }
 
 footer.footer .social-link {
@@ -312,7 +308,7 @@ footer.footer .social-link {
     width: 4rem;
     line-height: 4.3rem;
     font-size: 1.5rem;
-    background-color: #1d809f;
+    background-color: black;
     -webkit-transition: background-color .15s ease-in-out;
     transition: background-color .15s ease-in-out;
     -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
@@ -320,7 +316,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-    background-color: #155d74;
+    background-color: #000000;
     text-decoration: none
 }
 
